@@ -1,0 +1,9 @@
+const menubtn=document.querySelector(".menu-btn").addEventListener("click",fun);
+
+function fun(){
+    const menu=document.querySelector(".left-menu");
+    const show=document.querySelector(".show");
+    console.log(show);
+    menu.classList.toggle("show");
+    
+}
